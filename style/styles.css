@@ -34,6 +34,7 @@ border-radius: 5px;
 border: none;
 }
 /* failure section */
+
 .failure-section{
     display: flex;
     padding: 100px 200px;
@@ -61,4 +62,101 @@ margin-bottom: 15px;
 }
 .failure-head{
     padding-top: 200px;
+}
+/* plans */
+.plan-section{
+    padding: 0 200px;
+    margin-bottom: 200px;
+}
+.plan-title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin: 150px;
+text-align: center;
+}
+.type-of-plans{
+display: flex;
+text-align: center;
+
+}
+.plans{
+width: 25%;
+}
+.plan-titles{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* call us section */
+.call-us-section{
+    align-items: center;
+padding: 150px 300px;
+}
+.call-us{
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 5px;
+}
+.call-us-heading{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.call-us-section button{
+    font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+background-color: #FFFFFF;;
+} 
+/* last section */
+.last-section{
+    display: flex;
+    padding: 100px 200px;
+    gap: 150px;
+    background: #151414;
+}
+.last-section h2{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.last-section h1{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+margin-bottom: 20px;
+}
+.last-section p{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+margin-bottom: 20px;
+
+}
+.last-section img{
+padding-right: 10px;
+}
+.last-section input{
+margin-bottom:17px;
+padding: 20px 20px 20px;
+border-radius: 3px;
+border-color: #F15B22;
+}
+.last-section button{
+    padding: 20px 36px;
+    border-radius: 5px;
+   background-color: red;
+   font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
 }
