@@ -1,0 +1,64 @@
+/* banner */
+*{
+    margin: 0;
+    padding: 0;
+}
+.assignment-banner{
+text-align: right;
+padding: 0 200px;
+background-image: url("../images/banner/banner2.png");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding-top: 200px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    color: green;
+    width: 160px;
+height: 64px;
+font-weight: 600;
+font-size: 20px;
+background-color: orange;
+border-radius: 5px;
+border: none;
+}
+/* failure section */
+.failure-section{
+    display: flex;
+    padding: 100px 200px;
+    gap: 80px;
+}
+.failure-image{
+    width: 50%;
+}
+.failure-heading{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-bottom: 20px;
+
+}
+.failure-description{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+margin-bottom: 15px;
+}
+.failure-section i{
+    color: lightseagreen;
+    margin-bottom: 15px;
+}
+.failure-head{
+    padding-top: 200px;
+}
